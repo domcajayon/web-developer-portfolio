@@ -5,20 +5,21 @@
 }
 
 body {
-	background: url(bg.jpg)	no-repeat center center fixed;
+	/*background: url(bg.jpg)	no-repeat center center fixed;*/
 	font-family: sans-serif;	
+	background-color: black;
 }
 
 h1 {
 	font-size: 50px;
 	font-weight: normal;
 	margin-bottom: 0;
-	color: darkblue;
+	color: white;
 	font-weight: bold;
 }
 
 h2 {
-	color: orange;
+	color: cyan;
 	font-size: 18px;
 	margin-top: 0;
 
@@ -32,25 +33,33 @@ h2 {
 }
 
 .me {
-	height: 150px;
-	border-radius: 100%;
+	height: 500px;
+	border-radius: 5%;
 	border-style: solid;
-	border-color: green;
-	margin-top: 150px; 
+	
+	margin-top: 0px; 
+	float: left;
+	display: inline-block;
+	margin-right: 20px;
 
 }
 
+.overflow {
+	overflow: hidden;
+	margin-top: 150px;
+
+}
 .home {
 
 	width: 60%;
 	margin: 0 auto;
-	text-align: center;
+	/*text-align: center;*/
 	/*border: 10px solid red;*/
 
 }
 
 h3 {
-	color: yellow;
+	color: white;
 	font-size: 3em;
 }
 
@@ -193,6 +202,9 @@ strong {
     background: #ffffff;
     position: relative;
 }
+.timeline > li > .timeline-panel{
+	background-color: rgba(128,128,128,0.8);
+}
 .timeline > li > .timeline-panel:before {
     position: absolute;
     top: 26px;
@@ -254,7 +266,7 @@ strong {
 .timeline-heading h4 {
     font-weight: 400;
     padding: 0 15px;
-    color: #4679bd;
+    color: black;
 }
 .timeline-body > p, .timeline-body > ul {
     padding: 10px 15px;
@@ -328,4 +340,3 @@ strong {
         left: 28px;
     }
 }
-
