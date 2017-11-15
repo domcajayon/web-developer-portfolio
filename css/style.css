@@ -7,15 +7,19 @@
 body {
 	/*background: url(bg.jpg)	no-repeat center center fixed;*/
 	font-family: sans-serif;	
-	background-color: black;
+	background-color: darkcyan;
 }
 
 h1 {
 	font-size: 50px;
 	font-weight: normal;
 	margin-bottom: 0;
-	color: white;
+	color: black;
 	font-weight: bold;
+}
+
+img.me {
+
 }
 
 h2 {
@@ -32,8 +36,12 @@ h2 {
 
 }
 
+figcaption {
+    color: black;
+}
+
 .me {
-	height: 500px;
+	height: 450px;
 	border-radius: 5%;
 	border-style: solid;
 	
@@ -59,7 +67,7 @@ h2 {
 }
 
 h3 {
-	color: white;
+	color: black;
 	font-size: 3em;
 }
 
